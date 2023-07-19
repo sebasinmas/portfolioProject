@@ -1,29 +1,10 @@
-import CSS from "csstype";
-import { CSSProperties } from "react";
-
-const navBar:CSSProperties = {
-    margin:'0',
-    padding:'0',
-    listStyleType:'none'
-};
-const navBarEl:CSSProperties = {
-    margin:'0',
-    padding:'0',
-    listStyleType:'none'
-};
-
-
 const Home = () =>{
     return(
-        <div>
-            <nav>
-                <ul style={navBar}>
-                    <li>Inicio</li>
-                    <li>Contacto</li>
-                    <li>Creditos</li>
-                </ul>
-            </nav>
-        </div>
+        <section className="flex-start flex-col paddings mb-16">
+            <h1>Categories</h1>
+            <h1>Posts</h1>
+            <h1>LoadMore</h1>
+        </section>
     )
 }
 
